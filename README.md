@@ -1,4 +1,4 @@
-## 🎮 Tic-Tac-Toe Game
+# 🎮 Tic-Tac-Toe Game
 
 ### This is a simple Tic-Tac-Toe game implemented in C++. It allows two players to play the classic game on a 3x3 board. The game checks for winners, ties, and tracks the scores for both players.
 
@@ -40,7 +40,7 @@
 
 ---
 
-## 🧮 Digital Calculator
+# 🧮 Digital Calculator
 
 ### A feature-rich Digital Calculator implemented in C++ that supports basic arithmetic, advanced mathematical functions, and trigonometric calculations. This calculator is designed for accuracy, user convenience, and interactive use through a console interface.
 
