@@ -14,9 +14,8 @@ void displayBoard(char board[3][3])
 
 bool isWinner(char board[3][3], char &winner)
 {
-  winner = ' '; // Initialize winner to a default value
+  winner = ' ';
 
-  // Check rows and columns
   for (int i = 0; i < 3; i++)
   {
     if (board[i][0] == board[i][1] && board[i][1] == board[i][2] && board[i][0] != ' ')
@@ -31,7 +30,6 @@ bool isWinner(char board[3][3], char &winner)
     }
   }
 
-  // Check diagonals
   if (board[0][0] == board[1][1] && board[1][1] == board[2][2] && board[0][0] != ' ')
   {
     winner = board[0][0];
@@ -71,32 +69,31 @@ int main()
 
   do
   {
-    char board[3][3] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}}; // Initialize the game board
+    char board[3][3] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
     char currentPlayer = 'X', winner = ' ';
     cout << "\nWelcome to Tic-Tac-Toe!\n";
 
-    for (int i = 0; i < 9; i++) // Loop for up to 9 turns
+    for (int i = 0; i < 9; i++)
     {
       displayBoard(board);
       cout << (currentPlayer == 'X' ? playerX : playerO) << ", enter row and column (0-2): ";
 
-      cin >> r >> c; // Get the player's move
+      cin >> r >> c;
 
       if (r < 0 || r > 2 || c < 0 || c > 2 || board[r][c] != ' ')
       {
         cout << "Invalid move, try again.\n";
-        i--; // Same turn is repeated.
+        i--;
         continue;
       }
 
-      board[r][c] = currentPlayer; // Update the board with the player's move
-
-      if (isWinner(board, winner)) // If there's a winner, break the loop
+      board[r][c] = currentPlayer;
+      if (isWinner(board, winner))
         break;
-      currentPlayer = (currentPlayer == 'X') ? 'O' : 'X'; // Switch the player
+      currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
     }
 
-    displayBoard(board); // Display the updated board
+    displayBoard(board);
 
     if (winner == 'X')
     {
