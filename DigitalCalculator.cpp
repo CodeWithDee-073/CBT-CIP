@@ -184,7 +184,6 @@ int main()
 
     cout << "Enter your choice(+, -, *, /, %, !, ^, S, R, s, c, t, l, n, E): ";
     cin >> choice;
-
     switch (choice)
     {
     case '+':
