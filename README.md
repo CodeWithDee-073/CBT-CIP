@@ -67,11 +67,11 @@
 
 #### 🧮 Operations Supported
 
-- *Basic Operations*: Addition (+), Subtraction (-), Multiplication (\*), Division (/), and Percentage (%).
-- *Factorial*: Calculate the factorial of a non-negative integer (!).
-- *Power and Roots*: Exponentiation (^), Square Root (S), Cube Root (R).
-- *Trigonometry*: Sine (s), Cosine (c), Tangent (t).
-- *Logarithms*: Base-10 Logarithm (g), Natural Logarithm (n).
+- **Basic Operations**: Addition (+), Subtraction (-), Multiplication (\*), Division (/), and Percentage (%).
+- **Factorial**: Calculate the factorial of a non-negative integer (!).
+- **Power and Roots**: Exponentiation (^), Square Root (S), Cube Root (R).
+- **Trigonometry**: Sine (s), Cosine (c), Tangent (t).
+- **Logarithms**: Base-10 Logarithm (g), Natural Logarithm (n).
 
 #### 🏆 Results and Errors
 
