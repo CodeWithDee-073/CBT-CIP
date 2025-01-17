@@ -14,7 +14,7 @@ This repository features two interactive C++ projects: **Tic-Tac-Toe**, a two-pl
 
 ---
 
-# TIC-TAC-TOE 🎮  
+## **TIC-TAC-TOE** 🎮  
 
 A console-based implementation of the Tic-Tac-Toe game in C++. It allows two players to play the classic game on a 3x3 board. Perfect for a quick competitive game, the program checks for winners, ties, and tracks the scores for both players.  
 
@@ -57,7 +57,7 @@ A console-based implementation of the Tic-Tac-Toe game in C++. It allows two pla
 
 --------
 
-# DIGITAL CALCULATOR 🧮  
+## **DIGITAL CALCULATOR** 🧮  
 
 A console-based calculator implemented in C++ that supports basic arithmetic, advanced mathematical functions, and trigonometric calculations. This program provides an interactive menu-based interface for users to choose their desired operations.  
 
