@@ -158,8 +158,7 @@ void naturalLog()
 
 int main()
 {
-  double num1, num2;
-  char choice;
+  char choice, rset;
 
   do
   {
@@ -235,7 +234,11 @@ int main()
       cout << "Invalid choice, please try again.\n";
       break;
     }
-  } while (true);
+
+    cout << "Do you want to perform another calculation? (Y/N): ";
+    cin >> rset;
+
+  } while (rset == 'Y' || rset == 'y');
 
   return 0;
 }

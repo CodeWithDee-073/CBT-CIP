@@ -1,86 +1,104 @@
-## 🎮 TIC-TAC-TOE 
+# PROJECT COLLECTION: TIC-TAC-TOE & DIGITAL CALCULATOR  
 
-#### This is a simple Tic-Tac-Toe game implemented in C++. It allows two players to play the classic game on a 3x3 board. The game checks for winners, ties, and tracks the scores for both players
+## TABLE OF CONTENTS  
 
-### 🛠 Features
+1. [TIC-TAC-TOE 🎮](#tic-tac-toe-)  
+   - [KEY FEATURES ✨](#tic-tac-toe-key-features-)  
+   - [USER GUIDE 📋](#tic-tac-toe-user-guide-)  
+2. [DIGITAL CALCULATOR 🧮](#digital-calculator-)  
+   - [KEY FEATURES ✨](#digital-calculator-key-features-)  
+   - [USER GUIDE 📋](#digital-calculator-user-guide-)  
 
-- 🎮 **Two-player gameplay**: Players can enter their names and compete as X and O.
-- ✅ **Validates player moves**: Ensures no invalid or duplicate moves are made.
-- 🔁 **Play Again option**: Allows players to restart and play multiple games.
-- 📊 **Leaderboard display**: Shows a summary of scores at the end of each game.
-- 💻 **Easy-to-use console interface**: Simple and interactive gameplay experience.
+---
 
-### 📝 Guide
+## TIC-TAC-TOE 🎮  
 
-#### 🎮 Start the Game
+A console-based implementation of the Tic-Tac-Toe game in C++. It allows two players to play the classic game on a 3x3 board. Perfect for a quick competitive game, the program checks for winners, ties, and tracks the scores for both players.  
 
-- Upon starting, you'll be prompted to enter names for Player X and Player O.
+### KEY FEATURES ✨  
 
-#### ⏳ Gameplay
+- **Two-Player Gameplay:** Players enter their names and compete as X and O.  
+- **Move Validation ✅:** Ensures that no invalid or duplicate moves are made.  
+- **Play Again Option 🔄:** Allows players to restart and enjoy multiple rounds without restarting the program.  
+- **Leaderboard Display 🏆:** Tracks and shows scores for both players along with the total number of games played.  
+- **Interactive Console Interface 🎮:** Provides a user-friendly console interface for a smooth gameplay experience.  
 
-- Players take turns entering the row and column (values between 0 and 2) where they want to place their mark.
-- The board updates after every valid move.
+### USER GUIDE 📋  
 
-#### 🏆 Winning and Ties
+#### Start the Game 🚀  
 
-- The game declares a winner if either Player X or Player O achieves a row, column, or diagonal with their marks.
-- A tie is declared if the board is full with no winner.
+- Upon running the program, you’ll be prompted to enter the names of Player X and Player O.  
 
-#### 📊 Leaderboard
+#### Gameplay 🎲  
 
-- After each game, a summary of scores and the total number of games played is displayed.
+- Players take turns selecting their moves.  
+- Enter the row and column (values between 0 and 2) where you want to place your mark.  
+- The game validates each move and updates the board accordingly.  
 
-#### 🔄 Play Again or Exit
+#### Winning and Ties 🏅  
 
-- Choose to play another round by typing y or exit by typing n.
+- A player wins when they align three of their marks (X or O) in a row, column, or diagonal.  
+- A tie is declared if the board is full without any winner.  
 
-#### 🙏 Thanks for Playing
+#### Leaderboard 🏆  
 
-- When you exit, the program thanks you for playing and closes.
-------------------------------------------------------------------------------------------------------------------------------------------------
+- After every round, the leaderboard displays:  
+  - Player names  
+  - Scores of both players  
+  - Total games played  
 
+#### Play Again or Exit 🔄  
 
+- To continue playing, type `Y` when prompted.  
+- To exit, type `N`. The program will display a farewell message before closing.  
 
-## 🧮 DIGITAL CALCULATOR
+--------
 
-#### A feature-rich Digital Calculator implemented in C++ that supports basic arithmetic, advanced mathematical functions, and trigonometric calculations. This calculator is designed for accuracy, user convenience, and interactive use through a console interface
+## DIGITAL CALCULATOR 🧮  
 
-### 🛠 Features
+A console-based calculator implemented in C++ that supports basic arithmetic, advanced mathematical functions, and trigonometric calculations. This program provides an interactive menu-based interface for users to choose their desired operations.  
 
-- 🔢 **Basic Arithmetic Operations**: Addition, subtraction, multiplication, division, and percentages.
-- ✅ **Advanced Mathematical Functions**: Factorial, power, square root, cube root, logarithms, and natural logarithms.
-- 📐 **Trigonometric Functions**: Sine, cosine, and tangent calculations.
-- 🖥 **Interactive Console Interface**: User-friendly and easy to navigate.
-- 🔄 **Continuous Operation**: Perform multiple calculations without restarting the program.
+### KEY FEATURES ✨  
 
-### 📝 Guide
+- **Basic Arithmetic Operations 🔢:** Addition, subtraction, multiplication, division, and percentages.  
+- **Advanced Mathematical Functions 🧠:** Factorial (!), exponentiation (^), square root (S), and cube root (R).  
+- **Trigonometric Functions 📐:** Sine (s), cosine (c), and tangent (t).  
+- **Logarithmic Functions 📊:** Base-10 logarithm (g) and natural logarithm (n).  
+- **Interactive Console Interface 🎮:** User-friendly, menu-based design.  
+- **Restart Feature 🔄:** Press `R` to restart the program and return to the main menu for new calculations.  
+- **Error Handling 🚫:** Handles invalid inputs, such as division by zero, gracefully.  
 
-#### 🏁 Start the Calculator
+### USER GUIDE 📋  
 
-- On startup, you'll see a menu displaying all available operations.
+#### Start the Calculator 🚀  
 
-#### ⏳ Using the Calculator
+- Run the program to view the menu displaying all available operations.  
 
-- Enter the character corresponding to your desired operation (e.g., + for addition, s for sine).
-- Provide the required input(s) as prompted.
-- View the result displayed in a neatly formatted manner.
+#### Using the Calculator 🧮  
 
-#### 🧮 Operations Supported
+- Enter the character corresponding to the desired operation (e.g., `+` for addition, `s` for sine).  
+- Provide the inputs as prompted.  
+- View the result displayed neatly in the console.  
 
-- **Basic Operations**: Addition (+), Subtraction (-), Multiplication (\*), Division (/), and Percentage (%).
-- **Factorial**: Calculate the factorial of a non-negative integer (!).
-- **Power and Roots**: Exponentiation (^), Square Root (S), Cube Root (R).
-- **Trigonometry**: Sine (s), Cosine (c), Tangent (t).
-- **Logarithms**: Base-10 Logarithm (g), Natural Logarithm (n).
+#### Operations Supported 🔢  
 
-#### 🏆 Results and Errors
+- **Basic Operations:** `+`, `-`, `*`, `/`, `%`.  
+- **Factorial:** `!`.  
+- **Power and Roots:** `^`, `S`, `R`.  
+- **Trigonometric Functions:** `s`, `c`, `t`.  
+- **Logarithms:** `g`, `n`.  
 
-- Results are displayed clearly and professionally.
-- *Error Handling*:
-  - Division by zero: Displays an error message without crashing.
-  - Invalid inputs: Warns users for operations like undefined square roots or logarithms.
+#### Errors handling🚫  
 
-#### 🔄 Exit or Restart
+- **Division by Zero:** Displays an error message without crashing.  
+  - Example: Entering `1 / 0` will prompt a "Division by zero is not allowed" message.  
+- **Invalid Inputs:** Issues warnings for undefined operations, such as negative square roots or logarithms of non-positive values.  
 
-- *Continue*: Choose another operation for additional calculations.
-- *Exit*: Select E to gracefully end the program.
+#### Exit or Restart 🔄  
+
+- **Exit:** Press `E` to exit the program smoothly.  
+- **Restart:** Press `R` when prompted to clear the previous session and return to the main menu for a new calculation.  
+
+---
+
+Feel free to contribute to this project by submitting pull requests or reporting issues! 🚀  
