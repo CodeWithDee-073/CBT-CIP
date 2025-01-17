@@ -21,7 +21,7 @@ A console-based implementation of the Tic-Tac-Toe game in C++. It allows two pla
 
 ### KEY FEATURES ✨  
 
-- **Two-Player Gameplay:** Players enter their names and compete as X and O.  
+- **Two-Player Gameplay 👥:** Players enter their names and compete as X and O.  
 - **Move Validation ✅:** Ensures that no invalid or duplicate moves are made.  
 - **Play Again Option 🔄:** Allows players to restart and enjoy multiple rounds without restarting the program.  
 - **Leaderboard Display 🏆:** Tracks and shows scores for both players along with the total number of games played.  
