@@ -1,9 +1,9 @@
-# Introducing Tic-Tac-Toe and Digital Calculator
+## Introducing Tic-Tac-Toe and Digital Calculator
 
 This repository features two interactive C++ projects: **Tic-Tac-Toe**, a two-player competitive game, and **Digital Calculator**, a versatile tool for various mathematical operations.
 
 
-## TABLE OF CONTENTS  
+### TABLE OF CONTENTS  
 
 1. [TIC-TAC-TOE 🎮](#tic-tac-toe-)  
    - [KEY FEATURES ](#tic-tac-toe-key-features-)  
