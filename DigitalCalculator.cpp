@@ -5,9 +5,9 @@ using namespace std;
 
 void displayResult(double result)
 {
-  cout << "******************************************\n";
-  cout << "              RESULT IS: " << result << "\n";
-  cout << "******************************************\n\n";
+  cout << "\n\t******************************************\n";
+  cout << "\t              RESULT IS: " << result << "\n";
+  cout << "\t******************************************\n\n";
 }
 void add()
 {
@@ -162,26 +162,26 @@ int main()
 
   do
   {
-    cout << "\n\n******************************************" << endl;
-    cout << "|           DIGITAL CALCULATOR           |" << endl;
-    cout << "******************************************" << endl;
-    cout << "|      +      |      -      |      *     |" << endl;
-    cout << "|     ADD     |   SUBTRACT  |  MULTIPLY  |" << endl;
-    cout << "******************************************" << endl;
-    cout << "|      /      |      %      |     !      |" << endl;
-    cout << "|    DIVIDE   |  PERCENTAGE |  FACTORIAL |" << endl;
-    cout << "******************************************" << endl;
-    cout << "|      ^      |      S      |      R     |" << endl;
-    cout << "|    POWER    | SQUARE ROOT |  CUBE ROOT |" << endl;
-    cout << "******************************************" << endl;
-    cout << "|      s      |       c     |     t      |" << endl;
-    cout << "|     sin     |      cos    |    tan     |" << endl;
-    cout << "******************************************" << endl;
-    cout << "|     g       |      n      |     E      |" << endl;
-    cout << "|  Log10(a)   |   log(a)    |    EXIT    |" << endl;
-    cout << "******************************************" << endl;
+    cout << "\n\n\t******************************************" << endl;
+    cout << "\t|           DIGITAL CALCULATOR           |" << endl;
+    cout << "\t******************************************" << endl;
+    cout << "\t|      +      |      -      |      *     |" << endl;
+    cout << "\t|     ADD     |   SUBTRACT  |  MULTIPLY  |" << endl;
+    cout << "\t******************************************" << endl;
+    cout << "\t|      /      |      %      |     !      |" << endl;
+    cout << "\t|    DIVIDE   |  PERCENTAGE |  FACTORIAL |" << endl;
+    cout << "\t******************************************" << endl;
+    cout << "\t|      ^      |      S      |      R     |" << endl;
+    cout << "\t|    POWER    | SQUARE ROOT |  CUBE ROOT |" << endl;
+    cout << "\t******************************************" << endl;
+    cout << "\t|      s      |       c     |     t      |" << endl;
+    cout << "\t|     sin     |      cos    |    tan     |" << endl;
+    cout << "\t******************************************" << endl;
+    cout << "\t|     g       |      n      |     E      |" << endl;
+    cout << "\t|  Log10(a)   |   log(a)    |    EXIT    |" << endl;
+    cout << "\t******************************************" << endl;
 
-    cout << "Enter your choice(+, -, *, /, %, !, ^, S, R, s, c, t, l, n, E): ";
+    cout << "Enter ur choice(+, -, *, /, %, !, ^, S, R, s, c, t, l, n, E): ";
     cin >> choice;
     switch (choice)
     {
